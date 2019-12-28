@@ -1,0 +1,51 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#grid {
+  display: grid;
+  width: 100%;
+  grid-template-rows: 100px 500px 100px 100px 100px 100px 100px 100px 500px;
+  background-color: #282c34;
+}
+
+#grid .div1{
+  background-color: #21252b;
+}
+
+#grid .div2{
+  background-image: url("images/orange.JPG");
+  background-position: center;
+  background-size: cover;
+}
+
+#grid .date{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+
+#grid .div6{
+  margin-top: 50px;
+  background-image: url("images/purple.JPG");
+  background-position: center;
+  background-size: cover;
+}
+
+#grid .bottom_banner{
+  height: 100px;
+  background-color: #21252b;
+}
+
+#grid h1{
+  font-size: 40px;
+  color: white;
+}
+
+a:link{
+}
+
+a:active{
+  color: yellow;
+}
